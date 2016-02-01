@@ -1,20 +1,139 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- As 3 meta tags acima *devem* vir em primeiro lugar dentro do `head`; qualquer outro conteúdo deve vir *após* essas tags -->
-    <title>Abrapetite</title>
-    <!-- Bootstrap -->
-    <link href="stylesheets/style.css" rel="stylesheet">
-  </head>
-  <body>
-    <h1>Olá, mundo!</h1>
 
-    <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- As 3 meta tags acima *devem* vir em primeiro lugar dentro do `head`; qualquer outro conteúdo deve vir *após* essas tags -->
+  <title>Abrapetite</title>
+  <!-- STYLE GERAL -->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800' rel='stylesheet' type='text/css'>
+  <link href="stylesheets/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <header id="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-6">
+          <div class="brand">
+            <img src="images/logo-red.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-8 col-sm-6">
+          <ul class="logout-menu">
+            <li><a href="#"><i class="icon-logout icons"></i>Sair</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="navigation">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="welcome-user">
+            <div class="icone">
+              <i class="icon-user icons"></i>
+            </div>
+            <div class="text">
+              <span>Olá,</span>
+              <strong>Nome Usuário</strong>
+            </div>
+          </div>
+          <div id='cssmenu'>
+            <ul>
+              <li class='active'>
+                <a href='index.html'>
+                  <i class="icon-note icons"></i> PEDIDOS
+                </a>
+                <ul>
+                  <li><a href='#'>Histórico de Pedidos</a></li>
+                  <li><a href="#">Realizar Pedido</a></li>
+                  <li><a href="#">Solicitação de 2ª via</a></li>
+                  <li><a href="#">Solicitação de Cartão</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href='#'>
+                  <i class="icon-wrench icons"></i> MANUTENÇÃO
+                </a>
+                <ul>
+                  <li><a href='#'>Lista de Funcionários</a></li>
+                  <li><a href='#'>Funcionários</a></li>
+                  <li><a href='#'>Departamentos</a></li>
+                  <li><a href='#'>Consulta de Extratos</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href='#'>
+                  <i class="icon-briefcase icons"></i> Administrador
+                </a>
+                <ul>
+                  <li><a href='#'>Administração de Usuários</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTENT -->
+  <div class="main-content">
+    <div class="container">
+      <div class="row equal-height">
+        <div class="col-md-3">
+          <a href="#" class="box-icon">
+            <i class="icon-wallet icons"></i>
+            <span>Realizar Pedido</span>
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#" class="box-icon">
+            <i class="icon-calendar icons"></i>
+            <span>HISTÓRICO DE PEDIDO</span>
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#" class="box-icon">
+            <i class="icon-user-female icons"></i>
+            <span>Manutenção de Funcionários</span>
+          </a>
+        </div>
+        <div class="col-md-3">
+          <a href="#" class="box-icon">
+            <i class="icon-people icons"></i>
+            <span>Manutenção de Departamentos</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END CONTENT -->
+
+  <div id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-left">
+          <a href="http://www.abrapetite.com.br">www.abrapetite.com.br</a>
+        </div>
+        <div class="col-md-6 text-right">
+          Outros serviços: 41 3259-8040
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
 </html>
