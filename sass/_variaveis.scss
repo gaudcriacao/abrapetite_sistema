@@ -1,0 +1,10 @@
+// CORES
+$red-ab: #e13333;
+$red-ab-dark: darken($red-ab, 10%);
+$grey: #435155; 
+
+// BORDER RADIUS
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  border-radius: $radius;
+}
